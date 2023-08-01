@@ -15,7 +15,7 @@ body {
 
 #container {
     width: 30%;
-    height: 70%;
+    height: 75%;
     margin: 0 auto 0 auto;
     background: none;
 }
@@ -36,11 +36,14 @@ body {
 #user-input {
     height: 35%;
     width: 25%;
+    background: none;
     border: 2px solid #B295FF;
     border-radius: 5px;
     font-size: 6rem;
     text-align: center;
+    font-family: inherit;
     font-weight: 800;
+    color: white;
     display: inherit;
     justify-content: center;;
     align-items: inherit;
@@ -57,4 +60,19 @@ body {
 #bottom-half {
     background: #1F2937;
     height: 70%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conversions {
+    background: #273549;
+    width: 90%;
+    height: 20%;
+    text-align: center;
+}
+
+.conversion-title {
+    color: #CCC1FF;
 }
