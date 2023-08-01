@@ -5,32 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Converter</title>
     <link rel="stylesheet" href="index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;400;800&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <script src="index.js" defer></script>
 </head>
 <body>
-    <div id="top-half">
-        <h1>Metric/Imperial Unit Converter</h1>
-        <div id="user-input"></div>
-        <button id="convert-btn">Convert</button>
+    <div id="container">
+        <div id="top-half">
+            <h1 id="title">Metric/Imperial Unit Converter</h1>
+            <div id="user-input">20</div>
+            <button id="convert-btn">Convert</button>
+        </div>
+
+        <div id="bottom-half" class="conversions">
+            <div id="length">
+                <h2 class="conversion-title">Length (Meter/Feet)</h2>
+                <p class="calc"></p>
+            </div>
+
+            <div id="volume" class="conversions">
+                <h2 class="conversion-title">Volume (Liters/Gallons)</h2>
+                <p class="calc"></p>
+            </div>
+
+            <div id="mass" class="conversions">
+                <h2 class="conversion-title">Mass (Kilograms/Pound)</h2>
+                <p class="calc"></p>
+            </div>
+        </div>
     </div>
-
-    <div id="bottom-half">
-        <div id="length">
-            <h2>Length (Meter/Feet)</h2>
-            <p></p>
-        </div>
-
-        <div id="volume">
-            <h2>Volume (Liters/Gallons)</h2>
-            <p></p>
-        </div>
-
-        <div id="mass">
-            <h2>Mass (Kilograms/Pound)</h2>
-            <p></p>
-        </div>
-    </div>
-    
 
 </body>
 </html>
