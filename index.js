@@ -28,7 +28,7 @@ function getVolume() {
 function getMass() {
     leftConvert = (userInput.value * kgToLb).toFixed(3)
     rightConvert = (userInput.value / kgToLb).toFixed(3)
-    conversion = `${userInput.value} kilograms = ${leftConvert} pounds| ${userInput.value} pounds = ${rightConvert} kilograms`
+    conversion = `${userInput.value} kilograms = ${leftConvert} pounds | ${userInput.value} pounds = ${rightConvert} kilograms`
     mass.textContent = conversion
 }
 
